@@ -57,8 +57,7 @@
 .main__img--card {
   margin: 10px;
   height: 450px;
-  width: 450px;
-  /* 350px for good size without #main__img */
+  width: 450px; /* 350px for good size without #main__img */
   border-radius: 6px;
   display: flex;
   flex-direction: column;

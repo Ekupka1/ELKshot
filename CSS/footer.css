@@ -1,15 +1,15 @@
-
-/* footer section */
-.footer__container {
-  background: #141414;
-  padding: 4rem 0;
+/*footer css*/
+.footer__container{
+  background-color: #141414;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
+
 }
 
-#footer__logo {
+#footer__logo{
   color: #fff;
   display: flex;
   align-items: center;
@@ -18,41 +18,41 @@
   font-size: 2rem;
 }
 
+/* Growth of icons *
+.social__icons:hover {
+  transform: scale(1.055);
+  transition: 0.35s ease-in;
+  cursor: pointer;
+}*/
+
 /*social icons*/
-.social__icons a {
+.social__icons a{
   color: #fff;
   font-size: 24px;
 }
 
-.social__media {
+.social__media{
   max-width: 1000px;
   width: 100%;
 }
 
-.social__media--wrap {
+.social__media--wrap{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 3px auto 0 auto;
 }
 
-.social__icons {
+.social__icons{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40px;
+  width: 240px;
 }
 
-/* Growth of icons */
-.social__icons:hover {
-  transform: scale(1.055);
-  transition: 0.35s ease-in;
-  cursor: pointer;
-}
-
-.footer__logo {
+.social__logo {
   color: #fff;
   justify-content: flex-start;
   margin-left: 20px;
@@ -68,33 +68,33 @@
   color: #fff;
 }
 
-@media screen and (max-width: 820px) {
-  .footer__links {
+@media screen and (max-width: 820px){
+  .footer__links{
     margin-bottom: 2rem;
   }
 
-  #footer__logo {
+  #footer__logo{
     margin-bottom: 2rem;
     padding-right: 25px;
   }
 
-  .website__right {
+  .website__right{
     margin-bottom: 2rem;
   }
 
-  .footer__links--wrapper {
+  .footer__links--wrapper{
     flex-direction: column;
   }
 
-  .social__media--wrap {
+  .social__media--wrap{
     flex-direction: column;
   }
 }
 
-@media screen and (max-witdh: 480px) {
-  .footer__links--items {
+@media screen and (max-witdh: 480px){
+  .footer__links--items{
     margin: 0;
-    padding: 8px;
+    padding: 10px;
     width: 100%;
   }
 }

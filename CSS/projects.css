@@ -3,7 +3,6 @@
   background: #000000;
   background: linear-gradient(to top right, #304352, #d7d2cc);
   padding: 10rem 0;
-  /* background-image: linear-gradient(to bottom, #141414 0%, #304352 50%, #141414 100%); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +25,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-  border-radius: 5rem;
   max-width: 1265px;
   position: relative;
   margin: auto;
@@ -36,38 +34,39 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  height: 80%;
-  top: 13%;
-  width: 20%;
+  height: 95%;
+  top: 9%;
+  width: 50%;
   padding: 16px;
   margin-top: -22px;
   transition: 0.6s ease;
-  border-radius: 0 150px 150px 0;
+  /* border-radius: 0 50px 50px 0; */
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  top: 13%;
-  height: 80%;
-  border-radius: 150px 0 0 150px;
+  top: 9%;
+  height: 95%;
+  /* border-radius: 50px 0 0 50px; */
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 8px 15px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: right;
+  height: 10rem;
 }
 
 /* The dots/bullets/indicators */
@@ -96,7 +95,7 @@
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4
+    opacity: .2
   }
 
   to {
@@ -106,7 +105,7 @@
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: .2
   }
 
   to {
