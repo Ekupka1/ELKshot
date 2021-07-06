@@ -9,6 +9,7 @@
   width: 100%;
   /* Full width */
   background-color: #BDBDBD;
+  font-size: 0.9rem;
   text-decoration-color: #BDBDBD;
   /* Grey background */
 }
@@ -16,40 +17,37 @@
 .skill {
   text-align: right;
   /* Right-align text */
-  padding-top: 10px;
+  padding-top: 8px;
+  padding-right: 4px;
   /* Add top padding */
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   /* Add bottom padding */
-  color: #BDBDBD;
-  /* White text color */
+  color: #141414;
 }
 
 .html {
-  width: 70%;
-  background-color: #04AA6D;
+  width: 65%;
+  background: linear-gradient(to right, #fc4a1a 0%, #f7b733 100%);;
 }
 
-/* Green */
 .python {
   width: 40%;
-  background-color: #2196F3;
+  background: linear-gradient(to right, #FDC830 0%, #FDC830 100%);
 }
 
-/* Blue */
 .java {
   width: 30%;
-  background-color: #141414;
+  background: linear-gradient(to right, #93291E 0%, #dd1818 100%);
 }
 
-/* Red */
 .css {
-  width: 70%;
-  background-color: #808080;
+  width: 75%;
+  background: linear-gradient(to right, #2c3e50 0%, #3498db 100%);
 }
 
-/* Dark Grey */
 .main__img2--container {
   text-align: right;
+
 }
 
 /* SelfPort */
@@ -106,12 +104,9 @@
 
 /* Smaller devices - MR */
 @media screen and (max-width: 480px) {
-  .main__img2--card {
+  .main__img2 {
     height: 250px;
     width: 250px;
-  }
-
-  .main__img2 {
     font-size: 4rem;
   }
 
