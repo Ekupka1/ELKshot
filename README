@@ -1,8 +1,15 @@
-This is my personal portfolio website. It is made up of CSS, HTML, and JS.
-I am self taught for the language used in this project
+About:
+This is my personal portfolio website. It is made up of CSS, HTML, and JS. This would be my third attempting at making a website.
+I am self taught for the language used in this project. Up to date and started in May 2021.
 
-My future plans are:
+BUGS:
+The projects sections slide won't shrink with the user shrinks the page causing a scroll bar to pop up. / Fixed
+JS code won't show up for the navbar.
+JS for smaller screens wont work. / Fixed
+
+Plans:
+Change the scroll bar
 Add moving background
-Add scale factor to footer icons
+Add scale increase factor to footer icons when hovering over
 Add motion to the skills section
 Redo the direction of the projects section

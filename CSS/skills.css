@@ -14,11 +14,12 @@
   /* Grey background */
 }
 
+/* Text in Bars */
 .skill {
   text-align: right;
   /* Right-align text */
   padding-top: 8px;
-  padding-right: 4px;
+  padding-right: 8px;
   /* Add top padding */
   padding-bottom: 8px;
   /* Add bottom padding */
@@ -27,22 +28,22 @@
 
 .html {
   width: 65%;
-  background: linear-gradient(to right, #fc4a1a 0%, #f7b733 100%);;
+  background: linear-gradient(to right, #414345 0%, #fc4a1a 100%);
 }
 
 .python {
   width: 40%;
-  background: linear-gradient(to right, #FDC830 0%, #FDC830 100%);
+  background: linear-gradient(to right, #414345 0%, #FDC830 100%);
 }
 
 .java {
   width: 30%;
-  background: linear-gradient(to right, #93291E 0%, #dd1818 100%);
+  background: linear-gradient(to right, #414345 0%, #dd1818 100%);
 }
 
 .css {
   width: 75%;
-  background: linear-gradient(to right, #2c3e50 0%, #3498db 100%);
+  background: linear-gradient(to right, #414345 0%, #3498db 100%);
 }
 
 .main__img2--container {
@@ -94,6 +95,7 @@
 
   .main__content h2 {
     font-size: 1.75rem;
+    margin-top: .75rem;
   }
 
   .main__content p {

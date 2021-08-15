@@ -53,6 +53,11 @@
 .navbar__item {
   height: 80px;
 }
+.navbar__item:hover{
+  transform: scale(1.055);
+  transition: 0.35s ease-in;
+  cursor: pointer;
+}
 
 .navbar__links {
   color: #BDBDBD;
@@ -225,7 +230,7 @@
 .hero__discription {
   font-size: 60px;
   background: #da22ff;
-  background: -webkit-linear-gradient(to right, #9114ff 0%, #da22ff 100%);
+  /* background: -webkit-linear-gradient(to right, #9114ff 0%, #da22ff 100%); */
   background: linear-gradient(to right, #414345 0%, #232526 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;

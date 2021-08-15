@@ -10,7 +10,8 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  height: 90% z-index: 1;
+  height: 90%;
+  z-index: 1;
   width: 100%;
   max-width: 1300px;
   padding: 0 50px;
@@ -45,6 +46,7 @@
 }
 
 .main__content p {
+  line-height: 1.75rem;
   margin-top: 2rem;
   font-size: 1.25rem;
   font-weight: 300;
