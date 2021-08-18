@@ -5,6 +5,29 @@
   font-family: 'kumbh Sans', sans-serif;
 }
 
+/* Scrollbar */
+ ::-webkit-scrollbar {
+  background: #141414;
+  backdrop-filter: blur(10px);
+  width: 0px;
+  height: 0px;
+} /* Made it no show */
+
+/* ::-webkit-scrollbar-track {
+  background: #141414;
+  backdrop-filter: blur(10px);
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #141414;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #606060;
+} */
+
+/* Navbar Section */
 .navbar {
   background-color: #141414;
   height: 80px;

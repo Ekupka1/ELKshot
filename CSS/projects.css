@@ -36,7 +36,7 @@
   position: absolute;
   height: 95%;
   top: 9%;
-  width: 50%;
+  width: 35%;
   padding: 16px;
   margin-top: -22px;
   transition: 0.6s ease;
@@ -55,6 +55,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0);
+  /* background-color: #fff; */
 }
 
 /* The dots/bullets/indicators */
@@ -117,6 +118,30 @@
   font-size: 1.5rem;
   font-weight: 300;
 }
+
+/* Button to launch projects */
+.button__cta {
+  top: 4rem;
+  margin: 1.5rem 0rem;
+  display: inline-block;
+  padding: .75rem 3rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #fff;
+  flex-direction: row;
+  background-image: linear-gradient(to bottom left, #000000 0%, #434343 150%);
+  border-radius: .8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.10s ease;
+}
+
+.button__cta:hover {
+  background-image: linear-gradient(to bottom left, #304352 0%, #000000 100%);
+  transition: all 0.10s ease;
+}
+
 
 .projects__img3--container {
   text-align: center;
