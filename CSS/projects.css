@@ -103,7 +103,7 @@
   /* font-size: 50px; */
   background: #da22ff;
   background: -webkit-linear-gradient(to right, #085078 0%, #085078 100%);
-  background: linear-gradient(to top, #314755 0%, #26a0da 100%);
+  background: linear-gradient(to top, #606060 0%, #fff 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -114,7 +114,7 @@
   padding-top: 1.5rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -122,24 +122,26 @@
 /* Button to launch projects */
 .button__cta {
   top: 4rem;
-  margin: 1.5rem 0rem;
+  margin: 1.5rem 1rem 1rem 0;
   display: inline-block;
-  padding: .75rem 3rem;
+  padding: 0.75rem 3rem;
   letter-spacing: 8px;
   text-transform: uppercase;
   font-size: .8rem;
-  color: #fff;
+  color: #000000;
+  font-weight: bold;
   flex-direction: row;
-  background-image: linear-gradient(to bottom left, #000000 0%, #434343 150%);
+  background-image: linear-gradient(to top left , #304352 0%, #fff 150%);
   border-radius: .8rem;
   text-decoration: none;
-  text-transform: uppercase;
   transition: all 0.10s ease;
 }
 
 .button__cta:hover {
   background-image: linear-gradient(to bottom left, #304352 0%, #000000 100%);
-  transition: all 0.10s ease;
+  color: #606060;
+  transition: all 0.15s ease;
+  transform: scale(1.075);
 }
 
 
