@@ -1,0 +1,290 @@
+/* projects section */
+.projects {
+  background: #000000;
+  background: linear-gradient(to top right, #304352, #d7d2cc);
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h1 {
+  background-color: #ff8177;
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #9114ff 0%, #da22ff 100%);
+  background: linear-gradient(to right, #414345 0%, #232526 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1265px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  height: 95%;
+  top: 9%;
+  width: 35%;
+  padding: 16px;
+  margin-top: -22px;
+  transition: 0.6s ease;
+  /* border-radius: 0 50px 50px 0; */
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  top: 9%;
+  height: 95%;
+  /* border-radius: 50px 0 0 50px; */
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0);
+  /* background-color: #fff; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #606060;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #28313b;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+.projects__content {
+  color: #fff;
+  width: 100%; /*50% for grid effect*/
+}
+
+.projects__img3{
+  margin: 2rem 2rem;
+  color: #fff;
+  width: 50%;
+}
+
+.projects__content h2 {
+  font-size: 2rem;
+  /* font-size: 50px; */
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #085078 0%, #085078 100%);
+  background: linear-gradient(to top, #606060 0%, #fff 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
+}
+
+.projects__content p {
+  padding-top: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Button to launch projects */
+.button__cta {
+  top: 4rem;
+  margin: 1.5rem 1rem 1rem 0;
+  display: inline-block;
+  padding: 0.75rem 3rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #000000;
+  font-weight: bold;
+  flex-direction: row;
+  background-image: linear-gradient(to top left , #304352 0%, #fff 150%);
+  border-radius: .8rem;
+  text-decoration: none;
+  transition: all 0.10s ease;
+}
+
+.button__cta:hover {
+  background-image: linear-gradient(to bottom left, #304352 0%, #000000 100%);
+  color: #606060;
+  transition: all 0.15s ease;
+  transform: scale(1.075);
+}
+
+
+.projects__img3--container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.projects__img3--card {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 350px;
+  width: 1150px; /* 350px for good size without #projects__img */
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: linear-gradient(to top, #141414 0%, #28313b 100%);
+}
+
+/* Media Responsive */
+@media screen and (max-width: 1100px) {
+  .projects__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+
+  .projects__img3--container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects__img3--card {
+    height: 425px;
+    width: 725px;
+  }
+
+  .projects__content {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .projects__content h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+
+  .projects__content h2 {
+    margin-top: 3.5rem;
+    font-size: 2rem;
+  }
+
+  .projects__content p {
+    padding: 1.25rem;
+    line-height: 2rem;
+    font-size: 1.40rem;
+  }
+
+  /* Medium devices - MR */
+  @media screen and (max-width: 860px) {
+    .projects__img3--card {
+      height: 350px;
+      width: 520px;
+    }
+
+    .projects__img3 {
+      font-size: 4rem;
+    }
+
+    .projects__content h2 {
+      padding-top: 1.25rem;
+      font-size: 1.5rem;
+    }
+
+    .projects__content p {
+      font-size: 1.10rem;
+      padding: 1.25rem;
+    }
+  }
+
+/* Smaller devices - MR */
+@media screen and (max-width: 660px) {
+  .projects__img3--card {
+    height: 350px;
+    width: 360px;
+  }
+
+  .projects__img3 {
+    font-size: 4rem;
+  }
+
+  .projects__content h2 {
+    padding-top: 3rem;
+    font-size: 1.25rem;
+  }
+
+  .projects__content p {
+    font-size: .75rem;
+    padding: .75rem;
+  }
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .2
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .2
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+    font-size: 11px
+  }
+}
+}

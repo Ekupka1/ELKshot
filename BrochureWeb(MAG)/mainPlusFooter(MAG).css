@@ -1,0 +1,146 @@
+/* Main and Footer Section */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'kumbh Sans', sans-serif;
+}
+
+/* Mag Port */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.port-imag {
+  /* Full height */
+  height: 130%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .port-image {
+  /* Full height *
+  height: 200%;
+  width: 100%;
+  /* Center and scale the image nicely *
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* Images used-Port */
+.img1 {
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 5%,
+      #000000 100%), url("images/magPort2.png");
+}
+
+/* Hands */
+/* .img2 {
+  background-image: linear-gradient(to bottom,
+      #000000 0%, rgba(0, 0, 0, .85) 50%,
+      #000000 100%), url("images/women.jpg");
+  height: 150%
+} */
+
+/* Mag Sig */
+#logo {
+  position: absolute;
+  bottom: 450px;
+  left: -10px;
+}
+
+img {
+  max-width: 50%;
+  height: 90%;
+}
+
+/* Scrollbar - No Show */
+::-webkit-scrollbar {
+  background: #141414;
+  backdrop-filter: blur(10px);
+  width: 0px;
+  height: 0px;
+}
+
+/*footer css*/
+.footer__container {
+  background-color: #000000;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+
+#footer__logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/*social icons*/
+.social__icons a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social__media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social__media--wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 3px auto 0 auto;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social__logo {
+  color: #fff;
+  justify-content: flex-start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.website__right {
+  color: #fff;
+}
+
+/* Medium screen set up */
+@media screen and (max-width: 820px) {
+  #footer__logo {
+    margin-bottom: 2rem;
+    padding-right: 25px;
+  }
+
+  .website__right {
+    margin-bottom: 2rem;
+  }
+
+  .social__media--wrap {
+    flex-direction: column;
+  }
+}

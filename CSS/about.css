@@ -1,0 +1,144 @@
+/* About section */
+.main {
+  background-color: #141414;
+  padding: 8rem 0;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+.main__content {
+  color: #fff;
+  width: 100%;
+}
+
+.main__content h1 {
+  font-size: 3.5rem;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #606060 0%, #fff 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.main__content h2 {
+  font-size: 2rem;
+  /* font-size: 50px; */
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #085078 0%, #085078 100%);
+  background: linear-gradient(to top, #314755 0%, #26a0da 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
+}
+
+.main__content p {
+  line-height: 1.75rem;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.main__img--container {
+  text-align: center;
+}
+
+.main__img--card {
+  margin: 10px;
+  height: 450px;
+  width: 450px; /* 350px for good size without #main__img */
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: linear-gradient(to top, #e6dada 0%, #304352 100%);
+}
+
+/* Growth of pic */
+.main__img--card:hover {
+  transform: scale(1.055);
+  transition: 0.35s ease-in;
+  cursor: pointer;
+}
+
+/* Media Responsive */
+@media screen and (max-width: 1100px) {
+  .main__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+
+  .main__img--container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__img--card {
+    height: 425px;
+    width: 425px;
+  }
+
+  .main__content {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .main__content h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+
+  .main__content h2 {
+    font-size: 1.75rem;
+  }
+
+  .main__content p {
+    margin-top: 1.75rem;
+    font-size: 1.20rem;
+  }
+}
+
+/* Smaller devices - MR */
+@media screen and (max-width: 480px) {
+  .main__img--card {
+    height: 250px;
+    width: 250px;
+  }
+
+  .main__img {
+    font-size: 4rem;
+  }
+
+  .main__content h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .main__content h2 {
+    font-size: 1.5rem;
+  }
+
+  .main__content p {
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
+  }
+}

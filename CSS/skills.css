@@ -1,0 +1,133 @@
+/* skills section */
+.skills {
+  background-color: #141414;
+  padding: 8rem 0;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%;
+  /* Full width */
+  background-color: #BDBDBD;
+  font-size: 0.9rem;
+  text-decoration-color: #BDBDBD;
+  /* Grey background */
+}
+
+/* Text in Bars */
+.skill {
+  text-align: right;
+  /* Right-align text */
+  padding-top: 8px;
+  padding-right: 8px;
+  /* Add top padding */
+  padding-bottom: 8px;
+  /* Add bottom padding */
+  color: #141414;
+}
+
+.html {
+  width: 65%;
+  background: linear-gradient(to right, #414345 0%, #fc4a1a 100%);
+}
+
+.python {
+  width: 40%;
+  background: linear-gradient(to right, #414345 0%, #FDC830 100%);
+}
+
+.java {
+  width: 30%;
+  background: linear-gradient(to right, #414345 0%, #dd1818 100%);
+}
+
+.css {
+  width: 75%;
+  background: linear-gradient(to right, #414345 0%, #3498db 100%);
+}
+
+.main__img2--container {
+  text-align: right;
+
+}
+
+/* SelfPort */
+#main__img2 {
+  margin: 0 auto;
+  height: 500px;
+  width: 475px;
+  transform: scale(1.055);
+  transition: 0.35s ease-in;
+  cursor: pointer;
+}
+
+/* Media Responsive */
+@media screen and (max-width: 1100px) {
+  .main__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+
+  .main__img2--container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__img2--card {
+    height: 425px;
+    width: 425px;
+  }
+
+  .main__content {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .main__content h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+
+  .main__content h2 {
+    font-size: 1.75rem;
+    margin-top: .75rem;
+  }
+
+  .main__content p {
+    margin-top: 1.75rem;
+    font-size: 1.20rem;
+  }
+}
+
+/* Smaller devices - MR */
+@media screen and (max-width: 480px) {
+  .main__img2 {
+    height: 250px;
+    width: 250px;
+    font-size: 4rem;
+  }
+
+  .main__content h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .main__content h2 {
+    font-size: 1.5rem;
+  }
+
+  .main__content p {
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
+  }
+
+  .skills__bar {
+    padding: 12px 36px;
+    margin: 2.5rem 0;
+  }
+}
