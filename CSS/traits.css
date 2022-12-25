@@ -1,18 +1,18 @@
 /* traits section */
 .traits {
   background: #fff;
-  background-image: linear-gradient(to bottom, #141414 0%, #304352 50%, #141414 100%);
+  background: #1b1a1a;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 8rem 0;
+  padding: 8rem 0 10rem 0;
 }
 
 .traits h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #606060 0%, #fff 100%);
+  background-color: #ffffff;
+  background-image: linear-gradient(to top, #614f36 0%, #fff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -20,6 +20,11 @@
   -moz-text-fill-color: transparent;
   margin-bottom: 2rem;
   font-size: 3rem;
+  transition: 3s;
+}
+
+.traits:hover h1 {
+  letter-spacing: 8px;
 }
 
 .traits__wrapper {
@@ -35,8 +40,8 @@
   bottom: 0;
   left: -1px;
   right: 0;
-  background: rgba(20, 20, 20, .5);
-  backdrop-filter: blur(70px);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(80px);
   overflow: hidden;
   width: 100.5%;
   height: 0%;
@@ -54,12 +59,13 @@
   bottom: 0;
   left: -1px;
   right: 0;
-  background: rgba(20, 20, 20, .5);
-  backdrop-filter: blur(70px);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(80px);
   overflow: hidden;
   width: 0;
   height: 100.5%;
   transition: .5s ease;
+  color: transparent;
 }
 
 .traits__card:hover .Loverlay {
@@ -73,12 +79,13 @@
   bottom: 100%;
   left: -1px;
   right: 0;
-  background: rgba(20, 20, 20, .5);
-  backdrop-filter: blur(70px);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(80px);
   overflow: hidden;
   width: 100.5%;
   height: 0;
   transition: .5s ease;
+  color: transparent;
 }
 
 .traits__card:hover .Toverlay {
@@ -95,12 +102,13 @@
   bottom: 0;
   left: 100%; /* cool effect if you use 150px */
   right: 0;
-  background: rgba(20, 20, 20, .5);
-  backdrop-filter: blur(70px);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(80px);
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
+  color: transparent;
 }
 
 .traits__card:hover .Roverlay {
@@ -113,12 +121,14 @@ color: #fff;
 font-size: 15px;
 position: absolute;
 line-height: 2rem;
-width: 85%;
-height: 90%;
+width: 100%;
+height: 100%;
+padding: 5% 7% 5% 7%;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
+color: transparent;
 }
 
 .traits__card {
@@ -164,7 +174,7 @@ transform: translate(-50%, -50%);
   background-size: 550px;
 }
 
-.traits__card h2 {
+.traits__card h2{
   text-align: center;
   justify-content: center;
   padding-bottom: 9rem;
@@ -176,12 +186,38 @@ transform: translate(-50%, -50%);
   font-size: 1.55rem;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* .traits__card:hover {
+  transform: scale(1.01);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+} */
+
+.trait__text:hover h3{
+  color: #6affb7;
+}
+
+.trait__text:hover{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    color: #fff;
+}
+
 .box1{
   height: 40px;
   width: 150px;
-  border: 4px solid #141414;
+  border: 4px solid #1b1a1a;
   margin: auto;
-  background-color: #141414;
+  background-color: #1b1a1a;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;
@@ -190,9 +226,9 @@ transform: translate(-50%, -50%);
 .box2{
   height: 40px;
   width: 165px;
-  border: 4px solid #141414;
+  border: 4px solid #1b1a1a;
   margin: auto;
-  background-color: #141414;
+  background-color: #1b1a1a;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;
@@ -201,9 +237,9 @@ transform: translate(-50%, -50%);
 .box3{
   height: 40px;
   width: 200px;
-  border: 4px solid #141414;
+  border: 4px solid #1b1a1a;
   margin: auto;
-  background-color: #141414;
+  background-color: #1b1a1a;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;
@@ -212,9 +248,9 @@ transform: translate(-50%, -50%);
 .box4{
   height: 40px;
   width: 250px;
-  border: 4px solid #141414;
+  border: 4px solid #1b1a1a;
   margin: auto;
-  background-color: #141414;
+  background-color: #1b1a1a;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;
@@ -230,12 +266,6 @@ transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   margin-top: 16px;
-}
-
-.traits__card:hover {
-  transform: scale(1.055);
-  transition: 0.3s ease-in;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 1300px) {

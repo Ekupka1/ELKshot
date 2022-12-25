@@ -1,0 +1,105 @@
+<!-- 2022-2023 Website Model // Made with BootStrap -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fire-PLace</title>
+  
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">ELKshot</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <!-- first child -->
+          <span class="bar"></span> <!-- second child -->
+          <span class="bar"></span> <!-- third child -->
+        </div>
+        <!-- actual navbar section -->
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links" id="home-page">Main</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="ImagesHTML/Ethan Kupka __ Res23.pdf" class="button" id="home-page" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <section class="intro_container" id="home">
+    <!-- intro section // style in html intro_container section-->
+    <style>
+      /* Style for welcome vid */
+      .intro_container {
+        background: #141414;
+        height: 65rem;
+        position: relative;
+        z-index: 0;
+      }
+
+      *{
+        color: #fff;
+        text-decoration: none;
+      }
+
+      #background-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .intro_text {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+    </style>
+    <video id="background-video" autoplay loop muted>
+      <source src="ImagesHTML/fire.mp4" type="video/mp4" />
+    </video>
+    <div class="intro_text">
+    <h1>
+      <a href="" class="typewrite" data-period="2000" data-type='[ "You Found The Easter Egg!", "Enjoy the fire as you look over the resume :)", "", ""]'>
+        <span class="wrap"></span>
+      </a>
+    </h1>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <div class="footer__container">
+    <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="#home" id="footer__logo">ELKSHOT</a>
+        </div>
+        <p class="website__right">UpToDate 2022. Art by Elk</p>
+        <div class="social__icons">
+          <!-- Needs wifi to see icons // not downloaded-->
+        <a href="mailto:ekupka23@cornellcollege.edu" id="social__icons--links"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/ethankupka" id="social__icons--links" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ekupka1" id="social__icons--links" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="JS/ES.js"></script>
+</body>
+
+</html>

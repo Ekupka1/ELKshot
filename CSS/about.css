@@ -1,6 +1,6 @@
 /* About section */
 .main {
-  background-color: #141414;
+  background-color: #1b1a1a;
   padding: 8rem 0;
 }
 
@@ -22,23 +22,32 @@
   width: 100%;
 }
 
+.main__content:hover h1 {
+  letter-spacing: 8px;
+}
+
+.main__content span {
+  color: #6affb7;
+}
+
 .main__content h1 {
   font-size: 3.5rem;
   background-color: #fff;
-  background-image: linear-gradient(to top, #606060 0%, #fff 100%);
+  background-image: linear-gradient(to top, #614f36 0%, #fff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  transition: 3s;
 }
 
 .main__content h2 {
   font-size: 2rem;
   /* font-size: 50px; */
   background: #da22ff;
-  background: -webkit-linear-gradient(to right, #085078 0%, #085078 100%);
-  background: linear-gradient(to top, #314755 0%, #26a0da 100%);
+  background: -webkit-linear-gradient(to right, #9a8478 0%, #9a8478 100%);
+  background: #fff;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,10 +55,11 @@
 }
 
 .main__content p {
-  line-height: 1.75rem;
+  line-height: 2.25rem;
   margin-top: 2rem;
   font-size: 1.25rem;
   font-weight: 300;
+  color: #f6f6f6;
 }
 
 .main__img--container {
@@ -65,13 +75,13 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to top, #e6dada 0%, #304352 100%);
+  background-image: linear-gradient(to top, #272f2b 0%, #A8E2C3 100%);
 }
 
 /* Growth of pic */
 .main__img--card:hover {
   transform: scale(1.055);
-  transition: 0.35s ease-in;
+  transition: 0.15s ease-in;
   cursor: pointer;
 }
 
