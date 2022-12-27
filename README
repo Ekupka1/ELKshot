@@ -1,1 +1,26 @@
+About:
+This is my personal portfolio website. It is made up of CSS, HTML, and JS. This would be my third attempt making a website.
+I am self taught for the following languages used in this project. Up to date and started in May 2021.
 
+BUGS:
+The projects sections slide won't shrink with the user shrinks the page causing a scroll bar to pop up. / Fixed
+JS code won't show up for the navbar.
+JS for smaller screens wont work. / Fixed
+
+Plans:
+Update Resume - Done
+Add contact section
+Update a few projects - Done
+Reboot Design - Done
+Change Skill section
+Change the scroll bar - Done
+Add moving background
+Add scale increase factor to footer icons when hovering over
+Add motion to the skills section
+Redo the direction of the projects section - Done
+
+Update CheckList:
+Revise written portions, change color scheme, add more projects, update resume button, add moving background
+
+
+Link: https://elkshot.netlify.app/
