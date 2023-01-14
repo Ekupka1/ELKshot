@@ -7,7 +7,7 @@
 
 /* Scrollbar */
  ::-webkit-scrollbar {
-  background: #282828;
+  background: #0c0c15;
   backdrop-filter: blur(10px);
   width: 0px;
   height: 0px;
@@ -15,7 +15,7 @@
 
 /* Navbar Section */
 .navbar {
-  background-color: #1b1a1a;
+  background-color: #0c0c15;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@
 }
 
 #navbar__logo {
-  background-image: linear-gradient(to top, #fff 0%, #288a56 100%);
+  background-image: linear-gradient(to top, #848c85 0%, #b5363c 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -68,7 +68,7 @@
 }
 
 .navbar__links {
-  color: #fff;
+  color: #d0c7b6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@
 
 /*button Resume over*/
 .navbar__links:hover {
-  color: #A8E2C3;
+  color: #b5363c;
   transition: all 0.3s ease;
 }
 
@@ -94,9 +94,8 @@
 /*button for Resume*/
 .button {
   display: flex;
-  background: #833ab4;
-  background-image: -webkit-linear-gradient(to top, #BCB8AF 0%, #282828 100%);
-  background-image: linear-gradient(to top, #282828 0%, #9a8478 100%);
+  background-image: -webkit-linear-gradient(to top, #BCB8AF 0%, #151515 100%);
+  background-image: linear-gradient(to top, #282828 0%, #1b1b1b 100%);
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -106,12 +105,12 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  color: #F5FFFA;
+  color: #b5363c;
   transition: all 0.4s ease;
 }
 
 .button:hover {
-  background-image: linear-gradient(to top, #2e1e14 0%, #9a8478 100%);
+  background-image: linear-gradient(to top, #151515 0%, #414c47 100%);
   transition: all 0.4s ease;
 }
 
@@ -158,7 +157,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #F5FFFA;
+    background: #d0c7b6;
   }
 
   .navbar__item {
@@ -213,7 +212,7 @@
 /* Hero section */
 .hero {
   background: #000000;
-  background: linear-gradient(to bottom right, #1e130c, #BCB8AF);
+  background: linear-gradient(to bottom right, #68585a, #848c85);
   padding: 15rem 0;
 }
 
@@ -232,7 +231,7 @@
 .hero__heading {
   font-size: 100px;
   margin-bottom: 24px;
-  color: #fff;
+  color: #d0c7b6;
   transition: 3s;
 }
 
@@ -244,7 +243,7 @@
   font-size: 60px;
   /* background: -webkit-linear-gradient(to right, #9114ff 0%, #da22ff 100%); */
   /* background: linear-gradient(to top, #6f4c30 0%, #1a1a1a 60%, #141414 100%); */
-  background: linear-gradient(to right, #1c1d1d 0%, #000000 100%);
+  background: linear-gradient(to right, #1c1d1d 0%, #295843 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;

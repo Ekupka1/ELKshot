@@ -30,7 +30,7 @@ navLogo.addEventListener('click', hideMobileMenu);
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Ethan Kupka", "A Computer Science Major", "A Russian Minor", "Web Developer", "Interested in Cyber Security"];
+const textArray = ["Ethan Kupka", "A Computer Science Major", "A Russian Minor", "A Web Developer", "Interested in Cyber Security"];
 const typingDelay = 50;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
