@@ -1,7 +1,6 @@
 /* traits section */
 .traits {
-  background: #fff;
-  background: #1b1a1a;
+  background: #0c0c15;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,8 +10,8 @@
 }
 
 .traits h1 {
-  background-color: #ffffff;
-  background-image: linear-gradient(to top, #614f36 0%, #fff 100%);
+  background-color: #d0c7b6;
+  background-image: linear-gradient(to top, #b5363c 0%, #848c85 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -96,7 +95,7 @@
 /* Right transition */
 .Roverlay {
   border-radius: 5px;
-  color: #fff;
+  color: #d0c7b6;
   content: '.';
   position: absolute;
   bottom: 0;
@@ -117,7 +116,7 @@
 }
 
 .trait__text{
-color: #fff;
+color: #d0c7b6;
 font-size: 15px;
 position: absolute;
 line-height: 2rem;
@@ -134,8 +133,8 @@ color: transparent;
 .traits__card {
   position: relative;
   text-align: center;
-  background-color: #fff;
-  color: #fff;
+  background-color: #d0c7b6;
+  color: #d0c7b6;
   margin: 10px;
   height: 425px;
   width: 300px;
@@ -202,22 +201,22 @@ color: transparent;
 } */
 
 .trait__text:hover h3{
-  color: #6affb7;
+  color: #b5363c;
 }
 
 .trait__text:hover{
     animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    color: #fff;
+    color: #d0c7b6;
 }
 
 .box1{
   height: 40px;
   width: 150px;
-  border: 4px solid #1b1a1a;
+  border: 4px solid #0c0c15;
   margin: auto;
-  background-color: #1b1a1a;
+  background-color: #0c0c15;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;
@@ -226,9 +225,9 @@ color: transparent;
 .box2{
   height: 40px;
   width: 165px;
-  border: 4px solid #1b1a1a;
+  border: 4px solid #0c0c15;
   margin: auto;
-  background-color: #1b1a1a;
+  background-color: #0c0c15;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;
@@ -237,9 +236,9 @@ color: transparent;
 .box3{
   height: 40px;
   width: 200px;
-  border: 4px solid #1b1a1a;
+  border: 4px solid #0c0c15;
   margin: auto;
-  background-color: #1b1a1a;
+  background-color: #0c0c15;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;
@@ -248,9 +247,9 @@ color: transparent;
 .box4{
   height: 40px;
   width: 250px;
-  border: 4px solid #1b1a1a;
+  border: 4px solid #0c0c15;
   margin: auto;
-  background-color: #1b1a1a;
+  background-color: #0c0c15;
   border-radius: 0.25rem;
   text-align: center;
   justify-content: center;

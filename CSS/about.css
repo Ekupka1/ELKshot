@@ -1,6 +1,6 @@
 /* About section */
 .main {
-  background-color: #1b1a1a;
+  background-color: #0c0c15;
   padding: 8rem 0;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .main__content {
-  color: #fff;
+  color: #d0c7b6;
   width: 100%;
 }
 
@@ -27,13 +27,13 @@
 }
 
 .main__content span {
-  color: #6affb7;
+  color: #b5363c;
 }
 
 .main__content h1 {
   font-size: 3.5rem;
-  background-color: #fff;
-  background-image: linear-gradient(to top, #614f36 0%, #fff 100%);
+  background-color: #567759;
+  background-image: linear-gradient(to top, #b5363c 0%, #848c85 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -47,7 +47,7 @@
   /* font-size: 50px; */
   background: #da22ff;
   background: -webkit-linear-gradient(to right, #9a8478 0%, #9a8478 100%);
-  background: #fff;
+  background: #657866;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -59,7 +59,7 @@
   margin-top: 2rem;
   font-size: 1.25rem;
   font-weight: 300;
-  color: #f6f6f6;
+  color: #d0c7b6;
 }
 
 .main__img--container {
@@ -74,8 +74,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
-  background-image: linear-gradient(to top, #272f2b 0%, #A8E2C3 100%);
+  color: #d0c7b6;
+  background-image: linear-gradient(to top, #272f2b 0%, #848c85 100%);
 }
 
 /* Growth of pic */

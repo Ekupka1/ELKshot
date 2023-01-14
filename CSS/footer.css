@@ -1,6 +1,6 @@
 /*footer css*/
 .footer__container{
-  background-color: #1b1a1a;
+  background-color: #0c0c15;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 #footer__logo{
-  color: #fff;
+  color: #d0c7b6;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -27,7 +27,7 @@
 
 /*social icons*/
 .social__icons a{
-  color: #fff;
+  color: #d0c7b6;
   font-size: 24px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .social__logo {
-  color: #fff;
+  color: #d0c7b6;
   justify-content: flex-start;
   margin-left: 20px;
   cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .website__right {
-  color: #fff;
+  color: #d0c7b6;
 }
 
 /* Medium screen set up */
