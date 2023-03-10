@@ -127,39 +127,3 @@ window.onload = function() {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
 };
-
-// Highlight Menu active when scrolling
-// const highlightMenu = () =>{
-//   const elem = document.querySelector('.highlight')
-//   const homeMenu = document.querySelector('#home')
-//   const aboutMenu = document.querySelector('#about')
-//   const traitsMenu = document.querySelector('#traits')
-//   // const skillsMenu = document.querySelector('#skills')
-//   // const projectsMenu = document.querySelector('#projects')
-//   //let scrollPos = window.scrollY
-//
-//   //adds 'highlight' class to navbar
-//   if(window.innerWidth > 960 && scrollPos < 600){
-//     homeMenu.classList.add('highlight');
-//     aboutMenu.classList.remove('highlight');
-//     return
-//   }
-//     else if (window.innerWidth > 960 && scrollPos < 1400) {
-//       aboutMenu.classList.add('highlight');
-//       homeMenu.classList.remove('highlight');
-//       traitsMenu.classList.remove('highlight');
-//       return
-//     }
-//     else if (window.innerWidth > 960 && scrollPos < 2345) {
-//       traitsMenu.classList.add('highlight');
-//       aboutMenu.classList.remove('highlight');
-//       return
-//     }
-//
-//     if((elem && window.innerWidth < 960 && scrollPos < 600) || elem) {
-//       elem.classList.remove('highlight');
-//     }
-//   };
-//
-// window.addEventListener('scroll', highlightMenu);
-// window.addEventListener('click', highlightMenu);
