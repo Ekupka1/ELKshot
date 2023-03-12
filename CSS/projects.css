@@ -183,6 +183,10 @@
   background-image: linear-gradient(to top, #111111 0%, #848c85 100%);
 }
 
+#fourth{
+  background-image: linear-gradient(to top, #111111 0%, #909085 100%);
+}
+
 /* Media Responsive */
 @media screen and (max-width: 1100px) {
   .projects__container {

@@ -23,7 +23,7 @@
   <!-- navbar section -->
   <nav class="navbar">
     <div class="navbar__container">
-      <a href="#home" id="navbar__logo">ELKshot</a>
+      <a href="#home" id="navbar__logo" onclick="scrollToTop();return false;">ELKshot</a>
       <div class="navbar__toggle" id="mobile-menu">
         <span class="bar"></span> <!-- first child -->
         <span class="bar"></span> <!-- second child -->
@@ -207,6 +207,26 @@
         </div>
       </div>
 
+      <div class="mySlides fade">
+        <div class="projects__container">
+          <div class="projects__img3--container">
+            <div class="projects__img3--card" id="fourth">
+              <!-- <div class="projects__img"><img src="ImagesHTML/techLogo.png" alt="pic" id="main__img3" /></div> -->
+              <div class="projects__content">
+                <h2>Course Registration ER Diagram</h2>
+                <p><i>"Course Registration"</i> is an project that focused on designing a ER diagram of a student course registration 
+                  at Cornell College. Making a schema and improving it to meet third normal forms and worked towards implementing it 
+                  into SQLite.
+                </p>
+                  <a href="ImagesHTML/Final Doc CSC314.pdf" class="button__cta" target="_blank">File</a>
+                  <!-- <a href="ThirdPartyAPI(Joke)/index.html" <--download="index.html"-- class="button__cta" target="_blank">Launch</a> -->
+                  <a href="ImagesHTML/courseRegistration.db" class="button__cta" target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <a class="prev" onclick="plusSlides(-1)"></a>
       <a class="next" onclick="plusSlides(1)"></a>
 
@@ -217,6 +237,7 @@
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
     </div>
     <script>
       var slideIndex = 1;
@@ -255,9 +276,9 @@
     <div class="social__media">
       <div class="social__media--wrap">
         <div class="footer__logo">
-          <a href="#home" id="footer__logo">ELKSHOT</a>
+          <a href="#home" id="footer__logo" onclick="scrollToTop();return false;">ELKSHOT</a>
         </div>
-        <p class="website__right">UpToDate 2022. Art by Elk</p>
+        <p class="website__right">UpToDate 2023. Art by Elk</p>
         <div class="social__icons">
           <!-- Needs wifi to see icons // not downloaded-->
         <a href="mailto:ekupka23@cornellcollege.edu" id="social__icons--links"><i class=" fa-solid fa-basketball fa-bounce fas fa-envelope"></i></a>

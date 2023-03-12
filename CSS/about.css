@@ -76,12 +76,13 @@
   justify-content: center;
   color: #d0c7b6;
   background-image: linear-gradient(to top, #272f2b 0%, #848c85 100%);
+  transition: all 1s ease;
 }
 
 /* Growth of pic */
 .main__img--card:hover {
   transform: scale(1.055);
-  transition: 0.15s ease-in;
+  transition: 0.55s ease-in;
   cursor: pointer;
 }
 

@@ -26,6 +26,11 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
+/* Logo Click Smooth Back to Top ------------------------------------------------------------------- */
+function scrollToTop(){
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
 /* Home Typing Text ------------------------------------------------------------------- */
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
@@ -123,7 +128,7 @@ window.onload = function() {
   }
   // INJECT CSS
   var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+  // css.type = ".typewrite  > .wrap {color: #BCB8AF}";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #BCB8AF; color: #BCB8AF;}";
   document.body.appendChild(css);
 };
