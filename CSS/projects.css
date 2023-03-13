@@ -31,6 +31,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 1265px;
+  width: 100%;
   position: relative;
   margin: auto;
 }
@@ -257,6 +258,44 @@
   .projects__img3--card {
     height: 420px;
     width: 360px;
+  }
+
+  .projects__img3 {
+    font-size: 4rem;
+  }
+
+  .projects__content h2 {
+    padding-top: 2rem;
+    font-size: 1.25rem;
+  }
+
+  .projects__content p {
+    font-size: .75rem;
+    padding: .75rem;
+  }
+
+  .button__cta {
+  width: 75%;
+  margin: .52rem;
+  }
+}
+
+/* Smallest devices - MR */
+@media screen and (max-width: 660px) {
+
+  .projects h1{
+    font-size: 3rem;
+  }
+
+  .projects:hover h1 {
+    letter-spacing: 4px;
+  }
+
+  .projects__img3--card {
+    height: 420px;
+    width: 290px;
+    justify-content: center;
+    display: flex;
   }
 
   .projects__img3 {

@@ -5,6 +5,10 @@
   font-family: 'kumbh Sans', sans-serif;
 }
 
+.body{
+  background: #0c0c15;
+  /* white-space: nowrap; */
+}
 /* Scrollbar */
  ::-webkit-scrollbar {
   background: #0c0c15;
@@ -263,10 +267,15 @@
 
 @media screen and (max-width: 768px) {
   .hero__heading {
-    font-size: 60;
+    font-size: 60px;
   }
 
-  .hero__discription {
+  .typed-text {
+    font-size: 40px;
+  }
+
+  .hero__description{
     font-size: 40px;
   }
 }
+

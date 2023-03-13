@@ -6,6 +6,7 @@ BUGS:
 The projects sections slide won't shrink with the user shrinks the page causing a scroll bar to pop up. / Fixed
 JS code won't show up for the navbar.
 JS for smaller screens wont work. / Fixed
+Responsive smaller was showing white space. /Fixed
 
 Plans:
 Update Resume - Done
