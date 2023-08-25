@@ -80,6 +80,12 @@
   background-color: #0c0c15;
 }
 
+/* Auto time smooth transition */
+.transition-slide {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
 .projects__container {
   display: grid;
   grid-template-columns: 1fr 1fr;

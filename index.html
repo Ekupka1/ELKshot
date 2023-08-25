@@ -248,37 +248,54 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
       <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
+    </div> 
     <script>
       var slideIndex = 1;
       showSlides(slideIndex);
-
+  
+      // Function to advance the slide
       function plusSlides(n) {
-        showSlides(slideIndex += n);
+          showSlides(slideIndex += n);
       }
+  
+      // Function to go to a specific slide
       function currentSlide(n) {
-        showSlides(slideIndex = n);
+          showSlides(slideIndex = n);
       }
+  
+      // Function to display the current slide
       function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          
+          if (n > slides.length) {
+              slideIndex = 1;
+          }
+          if (n < 1) {
+              slideIndex = slides.length;
+          }
+  
+          // Hide all slides
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+  
+          // Remove the "active" class from all dots
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace("active", "");
+          }
+  
+          // Display the current slide
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
       }
-    </script>
+  
+      // Auto-change the slide every 3 seconds (adjust the interval as needed)
+      setInterval(function() {
+          plusSlides(1); // Advance to the next slide
+      }, 10000); // 10 seconds
+  </script>
   </div>
 
   <!-- footer section -->
