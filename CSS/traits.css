@@ -222,6 +222,11 @@ color: transparent;
   justify-content: center;
 }
 
+/* h2{
+  text-shadow: 0 0 5px  black;
+  /* writing-mode: vertical-rl; *
+} */
+
 .box2{
   height: 40px;
   width: 165px;

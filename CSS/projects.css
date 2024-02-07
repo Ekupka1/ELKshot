@@ -144,7 +144,7 @@
   color: #000000;
   font-weight: bold;
   flex-direction: row;
-  background-image: linear-gradient(to top left , #39443f 0%, #84848c 150%);
+  background-image: linear-gradient(to top left , #39443f 0%, #d0c7b6 150%);
   border-radius: .8rem;
   text-decoration: none;
   transition: all 0.10s ease;
